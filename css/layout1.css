@@ -166,3 +166,63 @@ body {
 p {
     line-height: 1.25;
 }
+
+
+@media (max-width: 780px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto 1fr;
+        grid-template-areas: 
+            "header header"
+            "main-nav main-nav"
+            "sidebar trends"
+            "main main";
+    }
+
+    .sections-header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sections-header div {
+        min-width: auto;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .sidebar {
+        margin: 10px;
+        position: relative;
+        height: auto;
+    }
+
+    .main-nav {
+        padding: 5px;
+    }
+
+    .main-content {
+        padding: 5px;
+        margin: 10px;
+    }
+
+    .trends {
+        margin: 10px;
+        margin-left: 5px; 
+        position: relative;
+        height: auto;
+    }
+
+    .trends ul, .sidebar ul {
+        padding: 0;
+    }
+
+    .trends li, .sidebar li {
+        padding: 5px 0;
+        font-size: 14px;
+    }
+
+    .subscribe-section button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
