@@ -249,3 +249,181 @@ h1 {
     text-decoration: none;
     color: black;
 }
+
+
+@media (max-width: 780px) {
+    .header {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .logo img {
+        max-width: 100px;
+    }
+
+    .register {
+        margin-top: 10px;
+        padding: 10px 20px;
+    }
+
+    .main-content {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .text-content {
+        max-width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .image-container {
+        max-width: 100%;
+    }
+
+    .image-container img {
+        height: auto;
+    }
+
+    .text-content button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+    }
+
+    .columns {
+        height: auto;
+        padding: 10px;
+    }
+
+    .content {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: 1100px;
+    }
+
+    .column {
+        max-width: 90%;
+        margin: 10px 0;
+    }
+
+
+    .steps {
+        flex-direction: column;
+        margin: 0;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .step-box {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+
+    .footer .logo {
+        margin-bottom: 10px;
+    }
+
+    .footer .links {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer ul {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 1921px) {
+    .main-content {
+        justify-content: space-evenly;
+        padding: 60px;
+    }
+
+    .text-content {
+        max-width: 40%;
+        padding: 60px;
+    }
+
+    .image-container {
+        max-width: 50%;
+        padding: 0px;
+    }
+
+    .ul_text-content {
+        gap: 140px;
+    }
+
+    .columns {
+        height: 90vh;
+        padding: 40px;
+    }
+
+    .content {
+        width: 90%;
+        height: 550px;
+        justify-content: space-between;
+    }
+
+    .column {
+        max-width: 500px;
+        padding: 40px;
+    }
+
+    .div_register .register3 {
+        padding: 20px 100px;
+        font-size: 20px;
+    }
+
+    .steps {
+        justify-content: space-evenly;
+        gap: 50px;
+        margin-left: 160px;
+    }
+
+    .step-box {
+        width: 450px;
+        padding: 30px;
+    }
+
+    .step-number {
+        font-size: 56px;
+    }
+
+    .step-text h2 {
+        font-size: 28px;
+    }
+
+    .footer {
+        padding: 50px 0;
+    }
+
+    .footer .links {
+        width: 85%;
+        justify-content: space-around;
+    }
+
+    .footer ul {
+        font-size: 18px;
+    }
+
+    .logo img {
+        max-width: 150px;
+    }
+
+    .register {
+        font-size: 18px;
+        padding: 20px 50px;
+    }
+}

@@ -188,3 +188,42 @@ main {
         margin-bottom: 20px;
     }
 }
+
+
+@media (min-width: 1921px) {
+    .articles-section {
+        max-width: 1920px; 
+        margin: 0 auto;
+        padding: 20px; 
+    }
+
+    .article {
+        max-width: 600px;
+    }
+
+    .logo img {
+        width: 250px;
+        height: 250px;
+        margin-top: 20px;
+    }
+
+    .imglogo img{
+        max-width: 200px;
+        height: auto;
+        display: flex;
+        text-align: left;
+    }
+
+    .text h2 {
+        font-size: 24px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .subscribe-section input[type="email"] {
+        width: 500px;
+        margin-bottom: 150px;
+    }
+}
